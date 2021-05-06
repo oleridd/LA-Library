@@ -7,7 +7,6 @@
 int main() {
 
 	Matrix<double> A(3, {1, 2, 3, 4, 5, 6, 7, 8, 9});
-	A.LU_factorize();
 	cout << A << endl;
 
 	return 0;
